@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{message}}</h1>
+      <p>meu nome é {{myName}} e tenho {{age}} anos.</p>
+      <form>
+        <input type="text" v-model="input_name" placeholder="Digite seu nome">
+        <input type="submit" value="Mudar" v-on:click="changeName">
+      </form>
+      <p>nome estático : {{name}}</p>
+      <p>Seu nome é : {{input_name}}</p>
+    </div>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
