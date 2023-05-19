@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 input[type=number]::-webkit-inner-spin-button { 
   -webkit-appearance: none;
   
@@ -9,5 +15,19 @@ input[type=number]::-webkit-inner-spin-button {
 input[type=number] { 
  -moz-appearance: textfield;
  appearance: textfield;
+}
 
+body{
+  background-image: linear-gradient( to bottom, rgb(171, 221, 171), rgb(174, 193, 201));
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar{
+  background-color: #388564c2;
+  width: 10px;
+} 
+
+::-webkit-scrollbar-thumb{
+  background-color: #081a2bb2;
+  border-radius: 10px;
 }

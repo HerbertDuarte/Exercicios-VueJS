@@ -2,7 +2,11 @@
     <h1 class="text-4xl py-4">
       Conversor de moedas
     </h1>
-  <div class="m-auto max-w-[800px]">
+    <span>
+        <img class="h-16 md:h-20 inline" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" />
+    </span>
+
+  <div class="m-auto max-w-[1080px]">
     <Conversor moeda-a="BRL" moeda-b="USD"/>
     <Conversor moeda-a="USD" moeda-b="BRL"/>
     <Conversor moeda-a="BRL" moeda-b="EUR"/>
