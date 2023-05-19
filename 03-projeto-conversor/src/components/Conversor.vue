@@ -38,6 +38,7 @@ import '../index.css'
         fetch(url)
           .then(data => data.json()
           .then(json => {
+            console.log(json)
             const cotacao = (json[de_para].ask)
             this.moedaB_value = ((cotacao * Number(this.moedaA_value)).toFixed(2)).toString().replace('.', ",")
           }))

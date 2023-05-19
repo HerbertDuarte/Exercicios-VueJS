@@ -11,8 +11,8 @@
     <Conversor moeda-a="USD" moeda-b="BRL"/>
     <Conversor moeda-a="BRL" moeda-b="EUR"/>
     <Conversor moeda-a="EUR" moeda-b="BRL"/>
-    <Conversor moeda-a="BRL" moeda-b="BTC"/>
-    <Conversor moeda-a="BTC" moeda-b="BRL"/>
+    <Conversor moeda-a="BRL" moeda-b="CAD"/>
+    <Conversor moeda-a="CAD" moeda-b="BRL"/>
   </div>
   
 </template>
