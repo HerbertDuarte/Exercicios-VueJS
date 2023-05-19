@@ -20,6 +20,7 @@ input[type=number] {
 body{
   background-image: linear-gradient( to bottom, rgb(171, 221, 171), rgb(174, 193, 201));
   background-attachment: fixed;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar{
